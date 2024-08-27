@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header{
+    background: linear-gradient(120deg, #aacbec, #0073e6, #033261);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2{
+   margin-top: 20px;
+   color: #0073e6;
+}
+section{
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.336);
+}
+section p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    background: linear-gradient(120deg, #012f5c, #3475b6, #91bfee);
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.336);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#icone{
+
+   font-size: 30px;
+   
+}
+
+.info{
+    display: none;
+    margin-top: 10px;   
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+ul li:hover .info{
+    display: block;
+}
+
+.projeto{
+    margin-top: 20px;
+}
+
+button{
+    background: linear-gradient(120deg, #aacbec, #0073e6, #033261);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.336);
+}
+button:hover{
+    background: linear-gradient(120deg, #558ec8, #025fbd, #022242);
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
